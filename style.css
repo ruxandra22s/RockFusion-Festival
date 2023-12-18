@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-color:   beige;
+    font-family: 'Viga', sans-serif;
+    color: #333333;
+}
+hr.divider {
+    color: beige;
+    border: 0.3vh solid beige;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width:100%;
+}
+header {
+    background-color: #333333;
+    color: beige;
+}
+nav {
+    border-bottom: 3px solid black;
+}
+nav ul li {
+    color: beige;
+}
+ul {
+    margin:0;
+    padding:0;
+}
+a {
+    color:#800000;
+}
+a:hover {
+    color:#800000;
+}
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    position: relative;
+    color:beige;
+    text-shadow: 5px 5px 5px #333333;
+}
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    margin-top:2rem;
+}
+h3 {
+    font-size: 2.2rem;
+    margin-top:2rem;
+    margin-bottom:1rem;
+    text-align: center;
+}
+p { 
+    font-size: 1.1rem;
+    font-family: 'Viga', sans-serif;
+}
+.imgages {
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: top right;
+    border: 0.2vw solid black;
+    margin-top:3vh;
+    margin-bottom:3vh;
+}
+.row {
+    margin-top: 5vh;
+    padding: 5vh;
+    background-color:#e2e2c6;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    border-top: 0.2vw solid black; 
+    padding-top:1rem;
+    background-color: #333333;
+    height: auto;
+    color:beige;
+}
+footer .row {
+    background-color: #333333;
+    color: beige;
+}
+footer ul li {
+    text-align:center;
+    list-style: none;
+    color:beige;
+}
+footer ul li a {
+    color:beige;
+    text-decoration: none;
+}
